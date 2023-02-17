@@ -8,12 +8,6 @@
 // ex 1. [1, 4], 2. [5, 7] -> 5 > 4, so directly push the interval [5,7] into the answer
 
 class Solution {
-  static bool cmp(pair<int, int> &a, pair<int, int> &b) {
-    if (a.first != b.first)
-      return a.first < b.first;
-    else
-      return a.second > b.second;
-  }
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
         int n = intervals.size();
