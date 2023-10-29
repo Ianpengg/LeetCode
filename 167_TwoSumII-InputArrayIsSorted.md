@@ -1,6 +1,6 @@
 
-Space Complexity : O(n)
-Time Complexity : O(1)
+Space Complexity : O(1)
+Time Complexity : O(n)
 
 首先此題的重點是空間複雜度必須是 O(1) 也就意味著我們不能用hash_map的方式來處理  
 又因為輸入vector為排序過的元素, 因此我們可以利用2 pointers的方法來做  
